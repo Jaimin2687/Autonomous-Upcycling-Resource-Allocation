@@ -6,6 +6,16 @@ AURA is a full-stack platform enabling autonomous negotiation, verified tokeniza
 
 **Status:** Functional vertical slice with interactive dashboards, live agent negotiation, wallet-driven tokenization, and end-to-end backend integration. Production readiness requires security hardening, compliance review, and scalability optimization.
 
+Built with:
+- [Next.js](https://nextjs.org/) - React framework
+- [FastAPI](https://fastapi.tiangolo.com/) - Python web framework
+- [Aptos](https://aptoslabs.com/) - Layer 1 blockchain
+- [TanStack Query](https://tanstack.com/query) - Data synchronization
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS
+- [SQLModel](https://sqlmodel.tiangolo.com/) - SQL databases with Python
+
+---
+
 ---
 
 ## 🏗️ Architecture Overview
@@ -418,15 +428,6 @@ curl http://localhost:8000/marketplace/snapshot | jq .
 ---
 
 
-Built with:
-- [Next.js](https://nextjs.org/) - React framework
-- [FastAPI](https://fastapi.tiangolo.com/) - Python web framework
-- [Aptos](https://aptoslabs.com/) - Layer 1 blockchain
-- [TanStack Query](https://tanstack.com/query) - Data synchronization
-- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS
-- [SQLModel](https://sqlmodel.tiangolo.com/) - SQL databases with Python
-
----
 
 **Version:** 0.1.0 (Functional Beta)  
 **Last Updated:** December 23, 2025  
