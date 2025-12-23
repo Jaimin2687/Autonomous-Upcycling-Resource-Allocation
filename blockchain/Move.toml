@@ -1,0 +1,9 @@
+[package]
+name = "AuraWasteLot"
+version = "0.0.1"
+
+[addresses]
+aura = "0xa11ce"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "main" }
