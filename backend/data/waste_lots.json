@@ -1,0 +1,30 @@
+[
+  {
+    "id": "lot-001",
+    "producer": "EcoPlast Industries",
+    "material_type": "HDPE Plastic Scrap",
+    "quantity_tons": 10,
+    "location": "Austin, TX",
+    "status": "available",
+    "price_floor_usd_per_ton": 220,
+    "verification": {
+      "evidence_uri": "https://example.com/evidence/lot-001",
+      "sensor_checksum": "a4b8f321",
+      "expires_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "id": "lot-002",
+    "producer": "GreenCircuit Labs",
+    "material_type": "E-waste (Server Boards)",
+    "quantity_tons": 4.5,
+    "location": "San Jose, CA",
+    "status": "negotiating",
+    "price_floor_usd_per_ton": 780,
+    "verification": {
+      "evidence_uri": "https://example.com/evidence/lot-002",
+      "sensor_checksum": "b712ce09",
+      "expires_at": "2025-11-15T00:00:00Z"
+    }
+  }
+]

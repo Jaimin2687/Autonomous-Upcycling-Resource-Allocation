@@ -1,0 +1,22 @@
+[
+  {
+    "id": "agent-producer-ecoplast",
+    "type": "producer",
+    "owner": "EcoPlast Industries",
+    "strategy": {
+      "target_price_usd_per_ton": 260,
+      "deadline_hours": 72,
+      "bundle_preference": true
+    }
+  },
+  {
+    "id": "agent-recycler-hyperpoly",
+    "type": "recycler",
+    "owner": "HyperPoly Upcycling",
+    "strategy": {
+      "max_price_usd_per_ton": 240,
+      "radius_miles": 120,
+      "auto_negotiate": true
+    }
+  }
+]
