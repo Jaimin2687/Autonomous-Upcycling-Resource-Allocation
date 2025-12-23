@@ -1,0 +1,22 @@
+# Example configuration for Aura agent service
+api_base_url: "http://127.0.0.1:8000"
+poll_interval_seconds: 5
+matchmaking_interval_seconds: 20
+producer:
+  identity:
+    name: "GreenCircuit Labs"
+    contact_email: "ops@greencircuit.example"
+    organization_type: "electronics"
+  auto_verify: true
+  auto_tokenize: true
+  verification_notes: "Auto-approved by sample agent"
+  token_symbol: "GCERT"
+recycler:
+  owner_name: "HyperPoly Upcycling"
+  owner_contact: "trade@hyperpoly.example"
+  max_price_usd_per_ton: 260
+  counter_offer_step: 15
+  submit_proof: true
+compliance:
+  reviewer_name: "Auto QA"
+  approve_threshold: 0.85
